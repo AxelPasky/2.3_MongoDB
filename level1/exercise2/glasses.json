@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "G001",
+    "brand": "Ray-Ban",
+    "frame": {
+      "type": "metal",
+      "color": "silver"
+    },
+    "lenses": {
+      "left": {
+        "prescription": 2.3,
+        "color": "transparent"
+      },
+      "right": {
+        "prescription": 2.0,
+        "color": "transparent"
+      }
+    },
+    "price": 127.0,
+    "supplier": {
+      "_id": "S001",
+      "name": "Lenti Perfette S.r.l.",
+      "address": {
+        "street": "Via degli Occhiali",
+        "number": 15,
+        "floor": 1,
+        "door": "A",
+        "city": "Milano",
+        "postal_code": "20100",
+        "country": "Italia"
+      },
+      "phone": "+39 0234567890",
+      "fax": "+39 0234567891",
+      "nif": "IT12345678901"
+    },
+    "purchases_by": [
+      {
+        "customer": {
+          "id": "C001",
+          "name": "Luca",
+          "surname": "Bianchi"
+        },
+        "timestamp": "2025-05-02T15:00:00Z",
+        "employee_id": "E001"
+      },
+      {
+        "customer": {
+          "id": "C002",
+          "name": "Anna",
+          "surname": "Verdi"
+        },
+        "timestamp": "2025-05-03T11:30:00Z",
+        "employee_id": "E002"
+      }
+    ]
+  }
+]
