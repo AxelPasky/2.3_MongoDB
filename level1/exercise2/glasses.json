@@ -17,22 +17,7 @@
       }
     },
     "price": 127.0,
-    "supplier": {
-      "_id": "S001",
-      "name": "Lenti Perfette S.r.l.",
-      "address": {
-        "street": "Via degli Occhiali",
-        "number": 15,
-        "floor": 1,
-        "door": "A",
-        "city": "Milano",
-        "postal_code": "20100",
-        "country": "Italia"
-      },
-      "phone": "+39 0234567890",
-      "fax": "+39 0234567891",
-      "nif": "IT12345678901"
-    },
+    "supplier_id": "S001",
     "purchases_by": [
       {
         "customer": {
